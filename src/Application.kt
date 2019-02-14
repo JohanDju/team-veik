@@ -14,8 +14,8 @@ fun main(args: Array<String>) {
             get("/") {
                 call.respondText("Hello Marius!", ContentType.Text.Plain)
             }
-            get("/demo") {
-                call.respondText("HELLO WORLD!")
+            get("/solskjaer") {
+                call.respondText("Solskjær kan gå på vannet... \nhttp://solskjaertabellen.com/")
             }
         }
     }
